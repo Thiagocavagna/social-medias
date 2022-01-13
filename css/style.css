@@ -1,1 +1,118 @@
 @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+
+:root {
+    --fonte01: font-family: 'Bungee Inline', cursive;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+a{
+    opacity: 0.9;
+}
+a:hover {
+    opacity: 1;
+}
+
+body {
+    
+    height: 100vh;
+    background-image: linear-gradient(to right,#0E1339, #432574, #6c42e0);
+}
+.cab {
+    padding-top: 30px;
+    padding-left: 86px;
+    padding-right: 86px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.menu {
+    display: flex;
+    gap: 30px;
+}
+
+.logo {
+    font-family: 'Bungee Inline', cursive;
+    font-size: 20px;
+}
+
+.cab a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+
+.conteudo {
+    
+}
+
+.conteudo .texto {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-left: 86px;
+    line-height: 1.5em;
+
+}
+
+.conteudo .img {
+    display: flex;
+    height: 100%;
+    justify-content: flex-end;
+}
+
+.texto h1 {
+    padding-top: 50px;
+    font-size: 3em;
+    
+}
+.texto p {
+    max-width: 430px;
+}
+
+.botoes ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 27px;
+    padding-left: 156px;
+    padding-top: 40px;
+}
+
+.botoes button {
+    background-color: rgb(24, 22, 22);
+    border: 2px solid rgb(168, 50, 168);
+    border-radius: 7px;
+    width: 400px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+
+}
+
+footer {
+    padding-top: 20px;
+    display: flex;
+    padding-left: 86px;
+    padding-bottom: 20px;
+
+}
+
+footer a {
+    font-size: 0.8em;
+    color: grey;
+}
