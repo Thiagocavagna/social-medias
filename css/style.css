@@ -24,7 +24,7 @@ a:hover {
 body {
     
     height: 100vh;
-    background-image: linear-gradient(to right,#0E1339, #432574, #6c42e0);
+    background-image: linear-gradient(to right,#080a1d, #423385, #6f5faf, #423385,#080a1d);
 }
 .cab {
     padding-top: 30px;
@@ -54,18 +54,22 @@ body {
 
 
 .conteudo {
-    
+    border-top: 1px solid rgba(156, 148, 148, 0.829);
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
 }
 
 .conteudo .texto {
     padding-top: 50px;
     display: flex;
     flex-direction: column;
-    gap: 25px;
-    padding-left: 86px;
+    gap: 30px;
     line-height: 1.5em;
 
 }
+
 
 .conteudo .img {
     display: flex;
@@ -74,26 +78,27 @@ body {
 }
 
 .texto h1 {
-    padding-top: 50px;
+    text-align: center;
     font-size: 3em;
     
 }
 .texto p {
+    text-align: justify;
     max-width: 430px;
 }
 
 .botoes ul {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 27px;
-    padding-left: 156px;
     padding-top: 40px;
 }
 
 .botoes button {
+    cursor: pointer;
     background-color: rgb(24, 22, 22);
-    border: 2px solid rgb(168, 50, 168);
+    border: 1px solid #C93A97;
     border-radius: 7px;
     width: 400px;
     height: 50px;
@@ -105,6 +110,8 @@ body {
 }
 
 footer {
+    margin-top: 50px;
+    border-top: 1px solid rgba(156, 148, 148, 0.829);
     padding-top: 20px;
     display: flex;
     padding-left: 86px;
@@ -112,7 +119,7 @@ footer {
 
 }
 
-footer a {
-    font-size: 0.8em;
+footer a, footer p {
+    font-size: 0.9em;
     color: grey;
 }
